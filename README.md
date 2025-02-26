@@ -45,3 +45,44 @@ A CLI tool to download YouTube videos and playlists with subtitle extraction, co
    ```bash
    git clone https://github.com/LeaDer-E/Youtube-Downloader.git
    cd Youtube-Downloader
+2. Install Python Dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+  Run the program from the command line:
+  ```bash
+  python3 your_script.py
+  python3 Youtube\ Downloader.py
+  ```
+**Follow the interactive prompts to select:**
+* Download type (Video or Audio)
+* Content type (Single video, Playlist, or Channel)
+* YouTube URL
+* Video quality
+* Subtitle download options (including conversion and translation and Auto Generator if needed)
+Once you have answered all the prompts, the download process will start and run unattended.
+
+## Future Enhancements
+* **Configuration File:**
+  Save user preferences (e.g., default quality, subtitle language).
+* **Graphical Interface:**
+  Develop a GUI version for ease of use.
+* **Advanced Error Logging:**
+  Write logs to a file for easier troubleshooting.
+* **Batch Processing:**
+  Support for scheduling multiple downloads.
+* **Extended Language Support:**
+  Integrate additional translation APIs for improved accuracy.
+* **Progress Notifications:**
+  Add desktop notifications or email alerts upon download completion.
+* **Cloud Integration:**
+  Automatically upload downloads to cloud storage services.
+
+## License
+  This project is licensed under the MIT License.
+
+## Acknowledgments
+* **yt-dlp** – For robust video downloading functionality.
+* **googletrans** – For subtitle translation.
+* **FFmpeg** – For subtitle conversion.
