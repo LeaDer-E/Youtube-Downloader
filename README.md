@@ -1,6 +1,8 @@
 # Youtube-Downloader
 
+**YouTube Video & Subtitle Downloader with Translation**
 A CLI tool to download YouTube videos and playlists with subtitle extraction, conversion, cleaning, and translation (with RTL support for Arabic).
+This Python program downloads videos (or audio) from YouTube—including entire playlists and channels. It lets you choose video quality, download subtitles (both manual and auto-generated), convert them from VTT to SRT, clean duplicates, and even translate subtitles (with proper right‐to‐left formatting for languages like Arabic). Built using yt‑dlp and googletrans, it’s designed for automated, hands‑off operation once you provide your download preferences.
 
 ## Features
 
@@ -52,7 +54,6 @@ A CLI tool to download YouTube videos and playlists with subtitle extraction, co
 ## Usage
   Run the program from the command line:
   ```bash
-  python3 your_script.py
   python3 Youtube\ Downloader.py
   ```
 **Follow the interactive prompts to select:**
